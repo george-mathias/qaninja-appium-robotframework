@@ -1,0 +1,43 @@
+0104.configurando-android-home
+adicionar nas variáveis de sistema;
+        - Criar a variavel: "ANDROID_HOME" e adicionar o path: "C:\Users\George Mathias\AppData\Local\Android\Sdk"(apenas exemplo, verificar o caminho do usuário no pc)
+        - Na variável "Path", adicionar os seguintes caminhos:
+            - "%ANDROID_HOME%\platform-tools"
+            - "%ANDROID_HOME%\tools"
+            - "%ANDROID_HOME%\tools\bin"
+            - "%ANDROID_HOME%\tools\lib"
+        - Caso o terminal esteja aberto, fechar e abrir novamente
+
+
+0105.servidor-do-appium
+npm install appium -g: instala o appium de forma global;
+npm install appium-doctor -g: instalar o doctor de forma global;
+"appium": iniciar o servidor do appium;
+"appium-doctor --android": verifica se computador está preparado para rodar versões do appium;
+
+0106.appium-desktop
+appium.io
+realizar o download, instalar (nnf);
+
+0107.criando-um-ambiente-virtual
+abrir android studio;
+configurações > avd manager;
+create virtual device > escolher dispositivo (pixel 2) que contenha a playstore > next
+escolher a versão do android que será baixada (9 pie) > clicar para baixar e aceitar os termos (aguardar o download) > finish
+vai retornar para tela de seleção do android > escolher versão baixada > next
+avd name: é possível escolher o nome > finish
+após clicar no finish, retorna para tela inicial e é possível rodar o device clicando no play;
+
+0108.appium-inspector
+appium.io > documentation > writing & running tests
+para buscar o udid do aparelho, no terminal, digitar "adb devices".  Caso apareça "emulator-5554 unauthorized", desligar  o "aparelho" (avd manager), nas opções do aparelho, ir em wipe data e repetir este processo;
+
+
+0201.conhecendo-o-robot-framework
+https://robotframework.org/
+pip install robotframework
+
+0202.iniciando-o-projeto-robot-mobile
+https://robotframework.org/
+appium library
+pip install --upgrade robotframework-appiumlibrary
