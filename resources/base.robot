@@ -14,5 +14,6 @@ Open Session
     Get Started
 
 Close Session
+    Sleep    1
     Capture Page Screenshot
     Close Application

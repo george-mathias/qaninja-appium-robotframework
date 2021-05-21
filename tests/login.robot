@@ -6,8 +6,6 @@ Resource             ../resources/base.robot
 Test Setup           Open Session
 Test Teardown        Close Session
 
-*** Variables ***
-${TEXT_FORMS}        FORMS
 
 *** Test Cases ***
 Deve logar com sucesso
@@ -17,7 +15,4 @@ Deve logar com sucesso
     Input Password   id=io.qaninja.android.twp:id/etPassword      qaninja
     Click Element    id=io.qaninja.android.twp:id/btnSubmit
 
-    # Wait Until Element Is Visible    
     Wait Until Page Contains    Show! Suas credenciais são validas.
-    
-    Capture Page Screenshot
