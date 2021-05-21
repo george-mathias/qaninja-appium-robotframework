@@ -1,5 +1,6 @@
 *** Settings ***
 Library        AppiumLibrary
+Library        ./libs/extend.py
 Resource       ./helpers.robot
 
 *** Keywords ***
