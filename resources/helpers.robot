@@ -53,3 +53,12 @@ Go To Short Click
 
     Click Text                  CLIQUE SIMPLES
     Wait Until Page Contains    Botão clique simples
+
+Go To Long Click
+    Open Nav
+
+    Click Text                  BOTÕES
+    Wait Until Page Contains    CLIQUE LONGO
+
+    Click Text                  CLIQUE LONGO
+    Wait Until Page Contains    Botão clique longo
