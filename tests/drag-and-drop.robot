@@ -2,6 +2,7 @@
 Documentation    page drag and drop tests
 
 Resource         ../resources/base.robot
+Resource         ../resources/libs/extend.py
 
 Test Setup       Open Session
 Test Teardown    Close Session
